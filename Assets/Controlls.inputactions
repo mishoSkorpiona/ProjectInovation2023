@@ -1,0 +1,78 @@
+{
+    "name": "Controlls",
+    "maps": [
+        {
+            "name": "Action Map",
+            "id": "fa5da31f-cb80-4d2e-b36f-6be8fe377632",
+            "actions": [
+                {
+                    "name": "Balance",
+                    "type": "Value",
+                    "id": "e79e988e-5e65-4e28-97a1-db6dd70bbcde",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "UDLR",
+                    "id": "05c5166b-52f7-4242-ad59-befbc10da48b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Balance",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "ba7c67d1-116b-4fd9-9be5-933c67a8263d",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Balance",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "6d0ee438-367d-49c5-8478-6145a6270725",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Balance",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "7cec0853-eee9-4ece-b0f6-f4e377a3c550",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Balance",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "cfa54e4f-7e84-44b9-9332-82c92dc80d41",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Balance",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
